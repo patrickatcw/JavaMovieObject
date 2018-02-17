@@ -12,11 +12,22 @@ public class Main {
 
         //printout logic
         System.out.println("Here is some movie information;");
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
+        System.out.println("Movie Info: " + a.getTitle() + ", " + a.getYear() + ", " + a.getRating()
+                + ", " + a.getGenre() + ", " + a.getLength() + " minutes");
+        System.out.println("Movie Info: " + b.getTitle() + ", " + b.getYear() + ", " + b.getRating()
+                + ", " + b.getGenre() + ", " + b.getLength() + " minutes");
+        System.out.println("Movie Info: " + c.getTitle() + ", " + c.getYear() + ", " + c.getRating()
+                + ", " + c.getGenre() + ", " + c.getLength() + " minutes");
+        System.out.println("Movie Info: " + d.getTitle() + ", " + d.getYear() + ", " + d.getRating()
+                + ", " + d.getGenre() + ", " + d.getLength() + " minutes");
 
     }
 
 }
+
+//Results
+   /*   Here is some movie information;
+        Movie Info: The Thing, 1979, R, horror, 123 minutes
+        Movie Info: White Nights, 1987, R, drama, 147 minutes
+        Movie Info: Popeye, 1985, PG, comedy, 136 minutes
+        Movie Info: The Shop, 2012, PG, comedy, 106 minutes*/
